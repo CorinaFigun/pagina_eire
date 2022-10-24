@@ -46,10 +46,8 @@ nav ul {
 
 
 h1 {
-    background-image: url(../assets/logo1.jpeg);
-    color: rgb(38, 49, 9);
-    background-color: darkgrey;
-    width: 100%;
+    
+    color: black;
     height: fit-content;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -293,3 +291,31 @@ section#tiposDanzas {
     text-align: center;
     text-justify: center;
 }
+
+.fondoDibus {
+    position: relative; 
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondoDibus::before {
+    content: "";
+    background-image: url(../assets/logo1.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 50%;
+    filter:blur(5px)
+}
+
+h1 {
+    position: relative;
+    color: #000;  
+    text-align: center;
+  }
