@@ -71,9 +71,10 @@ h2 {
     font-size: xx-large;
     align-items: top;
     width: 100%;
-    padding: 30px 60px 30px 60px;
+    padding: 0;
     margin: 0;
     text-align: center;
+   
 }
 
 h3 {
@@ -87,7 +88,7 @@ h3 {
     background-color: blanchedalmond;
     margin: 0;
     font-size: 35px;
-    ;
+    
 }
 
 a {
@@ -171,13 +172,7 @@ h4 {
 
 }
 
-.fotosAlineadas {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    height: 300px;
-    justify-content: space-between;
-}
+
 
 .fotosSanPatricio {
     align-content: center;
@@ -192,7 +187,7 @@ h4 {
     font-size: xx-large;
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 100px;
+    padding: 10px;
     text-align: center;
 }
 
