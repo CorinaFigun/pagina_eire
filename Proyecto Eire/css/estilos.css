@@ -186,12 +186,13 @@ h4 {
 }
 
 #titulosFotos {
-    color: rgb(12, 100, 88);
+    color: rgb(26, 131, 43);
     background-image: radial-gradient(yellow, orange, green, );
     font-size: xx-large;
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 100px;
+    text-align: center;
 }
 
 #bordesNavegador {
