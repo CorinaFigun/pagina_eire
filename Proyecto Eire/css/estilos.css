@@ -283,3 +283,16 @@ section#tiposDanzas {
     align-items: top;
     text-align: center;
 }
+#fichaTecnica {
+    background-color: burlywood;
+    color: darkgreen;
+    font-size: xx-large;
+    height: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    text-justify: center;
+}
