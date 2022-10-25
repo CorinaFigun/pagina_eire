@@ -319,3 +319,13 @@ h1 {
     color: #000;  
     text-align: center;
   }
+
+.miestilo {
+    background-color: antiquewhite;
+}
+
+@media (max-widht:320px) {
+    .miestilo {
+    background-color: aquamarine ;}
+    
+}
