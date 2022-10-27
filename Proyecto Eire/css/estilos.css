@@ -324,8 +324,8 @@ h1 {
     background-color: antiquewhite;
 }
 
-@media (max-widht:320px) {
-    .miestilo {
-    background-color: aquamarine ;}
+@media only screen and (max-width:760px) {
+    .miestilo { background-color:aquamarine
+    }
     
 }
