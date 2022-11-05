@@ -63,6 +63,13 @@ h2 {
    
 }
 
+@media screen and (max-width:760px) {
+    h2 {font-size: medium;
+        color: azure;
+    }
+    
+}
+
 h3 {
     background-image: url(../assets/logo1.jpeg);
     color: rgb(97, 38, 97);
@@ -74,6 +81,13 @@ h3 {
     background-color: blanchedalmond;
     margin: 0;
     font-size: 35px;
+    
+}
+
+@media screen and (max-width:760px) {
+    h3 {font-size: medium;
+        color: darkred;
+    }
     
 }
 
@@ -118,6 +132,7 @@ h4 {
 
 
 }
+
 
 .verdeOscuro {
     color: darkolivegreen;
@@ -173,6 +188,15 @@ h4 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 10px;
     text-align: center;
+}
+
+
+@media screen and (max-width:760px) {
+    #titulosFotos {
+        font-size: medium;
+    
+    }
+    
 }
 
 #bordesNavegador {
@@ -331,3 +355,4 @@ h1 {
     }
     
 }
+
