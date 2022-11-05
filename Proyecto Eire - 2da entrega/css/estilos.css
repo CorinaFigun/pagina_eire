@@ -186,8 +186,16 @@ h4 {
 }
 
 .logos {
-    width: 5%;
+    width: 60px;
 }
+
+@media screen and (max-width:760px) {
+    .logos {
+        width: 45px;
+
+    }
+}
+
 
 .bordesTitFotos {
     border-style: solid;
