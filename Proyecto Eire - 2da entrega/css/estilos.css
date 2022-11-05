@@ -15,7 +15,7 @@ ul {
 
 
 nav ul {
-    background-image: url(../assets/logo1.jpeg);  
+    background-image: url(../assets/logo1.jpeg);
     background-position-y: center;
     width: 100%;
     color: rgb(134, 121, 113);
@@ -24,9 +24,9 @@ nav ul {
     font-size: large;
     font-family: fantasy;
     justify-content: space-evenly;
-    align-content:center;
-   flex-direction: row;
-   display: flex;
+    align-content: center;
+    flex-direction: row;
+    display: flex;
 
 }
 
@@ -34,7 +34,7 @@ nav ul {
 
 
 h1 {
-    
+
     color: black;
     height: fit-content;
     font-weight: bold;
@@ -46,6 +46,14 @@ h1 {
     padding: 30px 60px 30px 60px;
     margin: 0px 0px 0px 0px;
 
+}
+
+
+@media screen and (max-width:760px) {
+    h1 {font-size: medium;
+        
+    }
+    
 }
 
 h2 {
@@ -60,14 +68,15 @@ h2 {
     padding: 0;
     margin: 0;
     text-align: center;
-   
+
 }
 
 @media screen and (max-width:760px) {
-    h2 {font-size: medium;
+    h2 {
+        font-size: medium;
         color: azure;
     }
-    
+
 }
 
 h3 {
@@ -81,14 +90,15 @@ h3 {
     background-color: blanchedalmond;
     margin: 0;
     font-size: 35px;
-    
+
 }
 
 @media screen and (max-width:760px) {
-    h3 {font-size: medium;
+    h3 {
+        font-size: medium;
         color: darkred;
     }
-    
+
 }
 
 a {
@@ -174,10 +184,10 @@ h4 {
     height: 300px;
     margin: 19px;
     justify-content: space-evenly;
-    
-    
 
-   
+
+
+
 }
 
 #titulosFotos {
@@ -194,9 +204,9 @@ h4 {
 @media screen and (max-width:760px) {
     #titulosFotos {
         font-size: medium;
-    
+
     }
-    
+
 }
 
 #bordesNavegador {
@@ -214,19 +224,19 @@ h4 {
 
 
 @media screen and (max-width:760px) {
-    #bordesNavegador { 
-       display: flex;
-        overflow:auto;
+    #bordesNavegador {
+        display: flex;
+        overflow: auto;
         align-content: space-between;
         margin: auto;
         padding: 6px;
         font-weight: 300;
         font-size: small;
-        justify-content:left;
+        justify-content: left;
         justify-items: auto;
         flex-wrap: nowrap;
     }
-    
+
 }
 
 #redes {
@@ -304,6 +314,7 @@ section#tiposDanzas {
     align-items: top;
     text-align: center;
 }
+
 #fichaTecnica {
     background-color: burlywood;
     color: darkgreen;
@@ -319,8 +330,8 @@ section#tiposDanzas {
 }
 
 .fondoDibus {
-    position: relative; 
-    height:100%;
+    position: relative;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -337,22 +348,22 @@ section#tiposDanzas {
     bottom: 0px;
     left: 0px;
     opacity: 30%;
-    filter:blur(2px)
+    filter: blur(2px)
 }
 
 h1 {
     position: relative;
-    color: #000;  
+    color: #000;
     text-align: center;
-  }
+}
 
 .miestilo {
     background-color: antiquewhite;
 }
 
 @media screen and (max-width:760px) {
-    .miestilo { background-color:aquamarine;
+    .miestilo {
+        background-color: aquamarine;
     }
-    
-}
 
+}
