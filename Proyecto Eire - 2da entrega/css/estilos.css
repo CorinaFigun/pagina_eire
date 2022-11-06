@@ -96,7 +96,8 @@ h3 {
 @media screen and (max-width:760px) {
     h3 {
         font-size: 160%;
-        color:darkslategrey;
+        color:greenyellow;
+        text-align:start;
     }
 
 }
