@@ -89,14 +89,14 @@ h3 {
     text-align: center;
     background-color: blanchedalmond;
     margin: 0;
-    font-size: 35px;
+    font-size: 270%;
 
 }
 
 @media screen and (max-width:760px) {
     h3 {
-        font-size: medium;
-        color: darkred;
+        font-size: 160%;
+        color:darkslategrey;
     }
 
 }
