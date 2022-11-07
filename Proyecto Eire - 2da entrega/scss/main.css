@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 760px) {
+  h1 {
+    font-size: 170%;
+  }
+}
+@media screen and (max-width: 760px) {
+  h2 {
+    font-size: medium;
+    color: azure;
+  }
+}
+@media screen and (max-width: 760px) {
+  h3 {
+    font-size: 160%;
+    color: greenyellow;
+    text-align: start;
+  }
+}
+@media screen and (max-width: 760px) {
+  #parrafoBonito {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 760px) {
+  #parrafoBonito2 {
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 760px) {
+  .logos {
+    width: 45px;
+  }
+}
+@media screen and (max-width: 760px) {
+  #titulosFotos {
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 760px) {
+  #bordesNavegador {
+    display: flex;
+    overflow: auto;
+    align-content: space-between;
+    margin: auto;
+    padding: 6px;
+    font-weight: 300;
+    font-size: small;
+    justify-content: left;
+    justify-items: auto;
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 760px) {
+  .miestilo {
+    background-color: aquamarine;
+  }
+}/*# sourceMappingURL=main.css.map */

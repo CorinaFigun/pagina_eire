@@ -49,12 +49,7 @@ h1 {
 }
 
 
-@media screen and (max-width:760px) {
-    h1 {font-size: 170%;
-        
-    }
-    
-}
+
 
 h2 {
 
@@ -70,13 +65,6 @@ h2 {
     font-weight: bold;
 }
 
-@media screen and (max-width:760px) {
-    h2 {
-        font-size: medium;
-        color: azure;
-    }
-
-}
 
 h3 {
     color:green;
@@ -89,14 +77,7 @@ h3 {
     font-weight: bold;
 }
 
-@media screen and (max-width:760px) {
-    h3 {
-        font-size: 160%;
-        color:greenyellow;
-        text-align:start;
-    }
 
-}
 
 a {
     text-decoration: none;
@@ -158,13 +139,7 @@ h4 {
     font-size: large;
    }
 
-   @media screen and (max-width:760px) {
-    #parrafoBonito {
-        font-size: small;
-
-    }
-}
-
+ 
 #parrafoBonito2 {
     color:coral;
     background-color: rgb(243, 243, 205);
@@ -172,23 +147,13 @@ h4 {
     font-size: large;
 }
 
-@media screen and (max-width:760px) {
-    #parrafoBonito2 {
-        font-size: medium;
 
-    }
-}
 
 .logos {
     width: 60px;
 }
 
-@media screen and (max-width:760px) {
-    .logos {
-        width: 45px;
 
-    }
-}
 
 
 .bordesTitFotos {
@@ -221,13 +186,7 @@ h4 {
 }
 
 
-@media screen and (max-width:760px) {
-    #titulosFotos {
-        font-size: medium;
 
-    }
-
-}
 
 #bordesNavegador {
     align-content: center;
@@ -243,21 +202,7 @@ h4 {
 }
 
 
-@media screen and (max-width:760px) {
-    #bordesNavegador {
-        display: flex;
-        overflow: auto;
-        align-content: space-between;
-        margin: auto;
-        padding: 6px;
-        font-weight: 300;
-        font-size: small;
-        justify-content: left;
-        justify-items: auto;
-        flex-wrap: nowrap;
-    }
 
-}
 
 #redes {
     background-image: url(../assets/logo1.jpeg);
@@ -386,9 +331,3 @@ h1 {
     background-color: antiquewhite;
 }
 
-@media screen and (max-width:760px) {
-    .miestilo {
-        background-color: aquamarine;
-    }
-
-}
