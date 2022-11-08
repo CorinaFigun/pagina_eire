@@ -25,21 +25,7 @@ nav ul {
   display: flex;
 }
 
-h1 {
-  color: black;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  font-weight: bold;
-  font-family: fantasy;
-  font-size: 300%;
-  align-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 30px 60px 30px 60px;
-  margin: 0px 0px 0px 0px;
-  font-weight: bold;
-}
+
 
 h2 {
   color: rgb(155, 99, 30);
