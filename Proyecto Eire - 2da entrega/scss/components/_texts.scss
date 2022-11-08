@@ -1,0 +1,83 @@
+h1 {
+
+    color: black;
+    height: fit-content;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 300%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 60px 30px 60px;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+}
+
+
+
+
+h2 {
+
+    color: rgb(155, 99, 30);
+    background-image: linear-gradient(rgb(132, 185, 132), rgb(119, 119, 30));
+    font-family: fantasy;
+    font-size: xx-large;
+    align-items: top;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+h3 {
+    color:green;
+    font-family: fantasy;
+    width: 100%;
+    padding: 30px 60px 30px 60px;
+    text-align: center;
+    margin: 0;
+    font-size: 270%;
+    font-weight: bold;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 30px;
+    margin: 0;
+    width: 100%;
+    background-color: antiquewhite;
+
+}
+
+section article {
+    width: 100%;
+    height: auto;
+    background-color: rgb(103, 194, 194);
+    margin: 50px 0px 50px 0px;
+}
+
+
+
+h4 {
+    color: orangered;
+    font-family: fantasy;
+    align-items: center;
+    width: 100%;
+    padding: 30px 60px 30px 60px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.footer {
+
+    align-content: center;
+    line-height: 300%;
+}
