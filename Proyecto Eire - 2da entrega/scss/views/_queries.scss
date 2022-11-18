@@ -73,3 +73,17 @@
     }
 
 }
+
+@media screen and (max-width: 760px) {
+    #fotosSanPatricio {
+     
+      overflow: auto;
+      align-content: space-between;
+      margin: auto;
+      padding: auto;
+      
+      justify-content: center;
+      justify-items: auto;
+      
+    }
+  }
