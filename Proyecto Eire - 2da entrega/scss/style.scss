@@ -1,16 +1,14 @@
 @import "utilities/variables";
-
 @import "components/listas";
 @import "components/images";
 @import "components/texts";
 @import "layouts/flex";
 @import "normalize/reset";
-
 @import "views/queries";
 
 $mapa_de_colores: (
     primario: black,
-secundario: green,
+secundario: rgba(22, 221, 92, 0.805),
 tercero: pink,
 cuarto:yellow,
 accordion-color: green
@@ -18,5 +16,5 @@ accordion-color: green
 );
 
 .btn{
-    background-color: map-get( $mapa_de_colores,tercero );
+    background-color: map-get( $mapa_de_colores,secundario );
 };
