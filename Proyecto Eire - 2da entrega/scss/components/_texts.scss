@@ -81,3 +81,31 @@ h4 {
     align-content: center;
     line-height: 300%;
 }
+
+#parrafoBonito {
+    color: green;
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+   }
+
+   @media screen and (max-width:760px) {
+    #parrafoBonito {
+        font-size: small;
+
+    }
+}
+
+#parrafoBonito2 {
+    color:coral;
+    background-color: rgb(243, 243, 205);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+@media screen and (max-width:760px) {
+    #parrafoBonito2 {
+        font-size: medium;
+
+    }
+}

@@ -17,4 +17,12 @@ accordion-color: green
 
 .btn{
     background-color: map-get( $mapa_de_colores,secundario );
+    @include sizes (500px, 500px)
 };
+
+@mixin sizes ($widht, $height) {
+    height: $height;
+    width: $width;
+}
+
+

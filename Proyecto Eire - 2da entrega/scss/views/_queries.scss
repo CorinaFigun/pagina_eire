@@ -5,6 +5,12 @@
     
 }
 
+@media screen and (max-width: 390) {
+    h1 { font-size: smaller;}
+}
+    
+
+
 @media screen and (max-width:760px) {
     h2 {
         font-size: medium;
@@ -76,7 +82,7 @@
 
 @media screen and (max-width: 760px) {
     #fotosSanPatricio {
-     
+      display: flex;
       overflow: auto;
       align-content: space-between;
       margin: auto;
@@ -84,6 +90,6 @@
       
       justify-content: center;
       justify-items: auto;
-      
+      flex-wrap: nowrap;
     }
   }
