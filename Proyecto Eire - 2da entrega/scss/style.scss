@@ -1,47 +1,22 @@
-@import "/scss/components/images";
-@import "/scss/components/texts";
-@import "/scss/layouts/flex";
-@import "/scss/normalize/reset";
-@import "/scss/utilities/variables";
-@import "/scss/views/queries";
+@import "utilities/variables";
 
+@import "components/listas";
+@import "components/images";
+@import "components/texts";
+@import "layouts/flex";
+@import "normalize/reset";
 
-$paleta_de_colores: (
+@import "views/queries";
+
+$mapa_de_colores: (
     primario: black,
-    secundario: green,
-    tercero: pink,
-    cuarto: yellow,
-    accordion-color: orange) $mapa_de_colores (
-    instagram: #55ecee,
-    facebook: #3a5795
+secundario: green,
+tercero: pink,
+cuarto:yellow,
+accordion-color: green
+
 );
 
-@each $key,
-$color in $mapa_de_colores {
-
-    .btn--#{$key} {
-        background-color: $color;
-    }
-}
-
-.btn--instagram {
-    background-color: #55ecee;
-}
-
-.btn--facebook {
-    background-color: #3a5795;
-}
-
-
-footer {
-    background-color: map-get($mapa_de_colores: $key instagram);
-}
-
-@mixin sizes ($widht, $height) {
-    height: $height;
-    width: $width;
-}
-
-.box {
-    @include sizes (500px, 50px)
-}
+.btn{
+    background-color: map-get( $mapa_de_colores,tercero );
+};
