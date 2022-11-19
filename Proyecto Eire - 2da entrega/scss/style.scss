@@ -6,3 +6,42 @@
 @import "/scss/views/queries";
 
 
+$paleta_de_colores: (
+    primario: black,
+    secundario: green,
+    tercero: pink,
+    cuarto: yellow,
+    accordion-color: orange) $mapa_de_colores (
+    instagram: #55ecee,
+    facebook: #3a5795
+);
+
+@each $key,
+$color in $mapa_de_colores {
+
+    .btn--#{$key} {
+        background-color: $color;
+    }
+}
+
+.btn--instagram {
+    background-color: #55ecee;
+}
+
+.btn--facebook {
+    background-color: #3a5795;
+}
+
+
+footer {
+    background-color: map-get($mapa_de_colores: $key instagram);
+}
+
+@mixin sizes ($widht, $height) {
+    height: $height;
+    width: $width;
+}
+
+.box {
+    @include sizes (500px, 50px)
+}
