@@ -37,7 +37,7 @@
 
 @media screen and (max-width:760px) {
     #parrafoBonito2 {
-        font-size: medium;
+        font-size: small;
 
     }
 }
@@ -80,14 +80,16 @@
 
 }
 
+
 @media screen and (max-width: 760px) {
     #fotosSanPatricio {
       
-     
-      align-content: space-between;
-      margin: auto;
-      padding: auto;
-      
+  
+      margin: 0;
+      padding: 0;
+      height: 100px;
+      width: 50px;
+      margin: 19px;
       justify-content: center;
       justify-items: auto;
       
