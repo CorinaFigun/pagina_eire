@@ -32,8 +32,6 @@ nav ul {
   height: 200px;
   margin: 19px;
   justify-content: space-evenly;
-  justify-content: space-evenly;
-  align-content: center;
   display: inline-flex;
 }
 
@@ -333,12 +331,16 @@ h4 {
 }
 @media screen and (max-width: 760px) {
   #fotosSanPatricio {
-    overflow: auto;
-    align-content: space-between;
-    margin: auto;
-    padding: auto;
+    
+
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 50px;
+    margin: 19px;
     justify-content: center;
     justify-items: auto;
+    
   }
 }
 .btn {
