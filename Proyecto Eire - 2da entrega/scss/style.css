@@ -1,15 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
 ul {
   list-style: none;
   color: chartreuse;
   width: 100%;
-
 }
 
 nav ul {
@@ -32,6 +24,8 @@ nav ul {
   height: 200px;
   margin: 19px;
   justify-content: space-evenly;
+  justify-content: space-evenly;
+  align-content: center;
   display: inline-flex;
 }
 
@@ -101,7 +95,7 @@ nav ul {
 
 .grid {
   -moz-column-gap: 250px;
-  column-gap: 250px;
+       column-gap: 250px;
   row-gap: 25px;
 }
 
@@ -266,6 +260,30 @@ h4 {
   line-height: 300%;
 }
 
+#parrafoBonito {
+  color: green;
+  background-color: beige;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+@media screen and (max-width: 760px) {
+  #parrafoBonito {
+    font-size: small;
+  }
+}
+#parrafoBonito2 {
+  color: coral;
+  background-color: rgb(243, 243, 205);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+@media screen and (max-width: 760px) {
+  #parrafoBonito2 {
+    font-size: medium;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -277,14 +295,17 @@ h4 {
     font-size: 170%;
   }
 }
-
+@media screen and (max-width: 760) {
+  h1 {
+    font-size: smaller;
+  }
+}
 @media screen and (max-width: 760px) {
   h2 {
     font-size: medium;
     color: azure;
   }
 }
-
 @media screen and (max-width: 760px) {
   h3 {
     font-size: 160%;
@@ -292,31 +313,26 @@ h4 {
     text-align: start;
   }
 }
-
 @media screen and (max-width: 760px) {
   #parrafoBonito {
     font-size: small;
   }
 }
-
 @media screen and (max-width: 760px) {
   #parrafoBonito2 {
     font-size: small;
   }
 }
-
 @media screen and (max-width: 760px) {
   .logos {
     width: 45px;
   }
 }
-
 @media screen and (max-width: 760px) {
   #titulosFotos {
     font-size: medium;
   }
 }
-
 @media screen and (max-width: 760px) {
   #bordesNavegador {
     display: flex;
@@ -331,17 +347,13 @@ h4 {
     flex-wrap: nowrap;
   }
 }
-
 @media screen and (max-width: 760px) {
   .miestilo {
     background-color: aquamarine;
   }
 }
-
 @media screen and (max-width: 760px) {
   #fotosSanPatricio {
-
-
     margin: 0;
     padding: 0;
     height: 100px;
@@ -349,87 +361,10 @@ h4 {
     margin: 19px;
     justify-content: center;
     justify-items: auto;
-
   }
 }
-
 .btn {
   background-color: rgba(22, 221, 92, 0.805);
-}
-
-
-#parrafoBonito {
-  color: green;
-  background-color: beige;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: large;
-}
-
-@media screen and (max-width:760px) {
-  #parrafoBonito {
-    font-size: small;
-
-  }
-}
-
-#parrafoBonito2 {
-  color: coral;
-  background-color: rgb(243, 243, 205);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: large;
-}
-
-@media screen and (max-width:760px) {
-  #parrafoBonito2 {
-    font-size: medium;
-
-  }
-}
-
-
-
-
-@media screen and (max-width: 390) {
-  h1 {
-    font-size: smaller;
-  }
-}
-
-
-@media screen and (max-width: 760px) {
-  div {
-
-
-    margin: 0;
-    padding: 0;
-    height: auto;
-    width: auto;
-    font-size: smaller;
-    justify-content: center;
-    justify-items: auto;
-
-  }
-}
-
-@media screen and (max-width: 760px) {
-  #grilla {
-
-    display: grid;
-    grid-template-areas: "header  header" "danzasIr danzasIr" "tiposDanzas tiposDanzas" "footer footer";
-    grid-template-rows: 5% 45% 45% 5%;
-    grid-template-columns: 1fr 1fr;
-   
-
-
-  }
-}
-@media screen and (max-width: 760px) {
-footer {
-  grid-area: footer;
-  text-align:justify;
-  font-family: fantasy;
-  background-color: rgb(243, 212, 171);
-}
-}
-
-/*# sourceMappingURL=style.css.map */
+  width: 180px;
+  height: 60px;
+}/*# sourceMappingURL=style.css.map */

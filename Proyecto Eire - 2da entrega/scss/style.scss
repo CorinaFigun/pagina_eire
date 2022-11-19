@@ -15,14 +15,15 @@ accordion-color: green
 
 );
 
+@mixin sizes ($width, $height) {
+    width: $width;
+    height: $height;
+    
+}
 .btn{
     background-color: map-get( $mapa_de_colores,secundario );
-    @include sizes (500px, 500px)
+    @include sizes(180px,60px );
 };
 
-@mixin sizes ($widht, $height) {
-    height: $height;
-    width: $width;
-}
 
 
